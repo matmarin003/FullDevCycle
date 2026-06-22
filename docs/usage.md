@@ -189,10 +189,4 @@ lib = full_biosensor_layout("biosensor_780nm.gds")
 
 ---
 
-## Relation to previous homeworks
 
-| Homework | Components reused |
-|---|---|
-| HW2 (Tarea2) | Mode solver logic → `waveguides.single_mode_condition`; MMI geometry → `couplers` |
-| HW3 (Tarea3) | Multi-device layout pattern → `gds_helpers.full_biosensor_layout` |
-| HW4 | Ring resonator, MZI, Y-branch, grating coupler → `resonators`, `interferometers`, `gds_helpers` |
